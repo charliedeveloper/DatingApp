@@ -1,0 +1,8 @@
+<p>
+  case works!
+</p>
+<button class="btn btn-default mr-2" type="button" (click)="onGetLien()">Get Lien</button>
+
+<div *ngFor="let lienItem of liens">
+  <app-lien-list [lien]="lienItem"> </app-lien-list>
+</div>

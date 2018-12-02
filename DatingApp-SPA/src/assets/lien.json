@@ -1,0 +1,274 @@
+[
+  {
+    "idDto": 0,
+    "lienId": 570,
+    "name": "PROGRESSIVE",
+    "type": "TYPE 2",
+    "phone": "+1 (888) 492-3016",
+    "policy": "0ca00155-b0bb-4d26-8ef3-c5a4a4ff8281",
+    "coverage": [
+      {
+        "idDto": 0,
+        "coveragId": 39,
+        "type": "ZYS",
+        "status": "On Hold",
+        "primacy": "PRIMACY 1",
+        "adjuster": {
+          "idDto": 0,
+          "adjusterId": 848,
+          "name": "Gray Goff"
+        }
+      },
+      {
+        "idDto": 1,
+        "coveragId": 47,
+        "type": "ABC",
+        "status": "On Hold",
+        "primacy": "PRIMACY 2",
+        "adjuster": {
+          "idDto": 1,
+          "adjusterId": 808,
+          "name": "Rivers Stevenson"
+        }
+      }
+    ]
+  },
+  {
+    "idDto": 1,
+    "lienId": 515,
+    "name": "AETNA",
+    "type": "TYPE 2",
+    "phone": "+1 (811) 550-2588",
+    "policy": "4e1463f8-23c0-470d-a0dd-a595f515c86e",
+    "coverage": [
+      {
+        "idDto": 0,
+        "coveragId": 43,
+        "type": "MP",
+        "status": "Close",
+        "primacy": "PRIMACY 1",
+        "adjuster": {
+          "idDto": 0,
+          "adjusterId": 880,
+          "name": "Henrietta Christensen"
+        }
+      },
+      {
+        "idDto": 1,
+        "coveragId": 30,
+        "type": "ABC",
+        "status": "On Hold",
+        "primacy": "PRIMACY 2",
+        "adjuster": {
+          "idDto": 1,
+          "adjusterId": 819,
+          "name": "Autumn Terrell"
+        }
+      }
+    ]
+  },
+  {
+    "idDto": 2,
+    "lienId": 501,
+    "name": "BLUE CROSS",
+    "type": "TYPE 1",
+    "phone": "+1 (990) 595-2745",
+    "policy": "231e638e-83dd-439e-8be2-cbd5a71aaccf",
+    "coverage": [
+      {
+        "idDto": 0,
+        "coveragId": 40,
+        "type": "ZYS",
+        "status": "Open",
+        "primacy": "PRIMACY 2",
+        "adjuster": {
+          "idDto": 0,
+          "adjusterId": 822,
+          "name": "Betsy Wilkinson"
+        }
+      },
+      {
+        "idDto": 1,
+        "coveragId": 46,
+        "type": "PIP",
+        "status": "Pending",
+        "primacy": "PRIMACY 1",
+        "adjuster": {
+          "idDto": 1,
+          "adjusterId": 847,
+          "name": "Mullins Knapp"
+        }
+      }
+    ]
+  },
+  {
+    "idDto": 3,
+    "lienId": 578,
+    "name": "BLUE CROSS",
+    "type": "TYPE 2",
+    "phone": "+1 (975) 413-3772",
+    "policy": "9bdd3147-50f0-4ace-9632-cce485839d8b",
+    "coverage": [
+      {
+        "idDto": 0,
+        "coveragId": 46,
+        "type": "ABC",
+        "status": "Close",
+        "primacy": "PRIMACY 2",
+        "adjuster": {
+          "idDto": 0,
+          "adjusterId": 803,
+          "name": "Jennie Cannon"
+        }
+      },
+      {
+        "idDto": 1,
+        "coveragId": 30,
+        "type": "PIP",
+        "status": "Pending",
+        "primacy": "PRIMACY 2",
+        "adjuster": {
+          "idDto": 1,
+          "adjusterId": 900,
+          "name": "Mcleod Rasmussen"
+        }
+      }
+    ]
+  },
+  {
+    "idDto": 4,
+    "lienId": 537,
+    "name": "AETNA",
+    "type": "TYPE 1",
+    "phone": "+1 (820) 549-2873",
+    "policy": "a5a0696e-15f0-49d5-ad98-b21a95315365",
+    "coverage": [
+      {
+        "idDto": 0,
+        "coveragId": 49,
+        "type": "ZYS",
+        "status": "Open",
+        "primacy": "PRIMACY 2",
+        "adjuster": {
+          "idDto": 0,
+          "adjusterId": 863,
+          "name": "Saundra Cooke"
+        }
+      },
+      {
+        "idDto": 1,
+        "coveragId": 44,
+        "type": "MP",
+        "status": "Pending",
+        "primacy": "PRIMACY 2",
+        "adjuster": {
+          "idDto": 1,
+          "adjusterId": 881,
+          "name": "Stacie Jordan"
+        }
+      }
+    ]
+  },
+  {
+    "idDto": 5,
+    "lienId": 519,
+    "name": "GEICO",
+    "type": "TYPE 2",
+    "phone": "+1 (950) 600-3090",
+    "policy": "f5011ea4-3daf-4a68-a635-0553a046e177",
+    "coverage": [
+      {
+        "idDto": 0,
+        "coveragId": 37,
+        "type": "PIP",
+        "status": "Pending",
+        "primacy": "PRIMACY 2",
+        "adjuster": {
+          "idDto": 0,
+          "adjusterId": 854,
+          "name": "Massey Roth"
+        }
+      },
+      {
+        "idDto": 1,
+        "coveragId": 36,
+        "type": "ZYS",
+        "status": "Close",
+        "primacy": "PRIMACY 1",
+        "adjuster": {
+          "idDto": 1,
+          "adjusterId": 846,
+          "name": "Chambers Poole"
+        }
+      }
+    ]
+  },
+  {
+    "idDto": 6,
+    "lienId": 591,
+    "name": "AETNA",
+    "type": "TYPE 1",
+    "phone": "+1 (895) 595-3592",
+    "policy": "3e7f2abb-1804-4bb4-ac5a-5269c35c397d",
+    "coverage": [
+      {
+        "idDto": 0,
+        "coveragId": 45,
+        "type": "ABC",
+        "status": "On Hold",
+        "primacy": "PRIMACY 1",
+        "adjuster": {
+          "idDto": 0,
+          "adjusterId": 900,
+          "name": "Sharlene Moss"
+        }
+      },
+      {
+        "idDto": 1,
+        "coveragId": 42,
+        "type": "MP",
+        "status": "Pending",
+        "primacy": "PRIMACY 1",
+        "adjuster": {
+          "idDto": 1,
+          "adjusterId": 853,
+          "name": "Dennis Lewis"
+        }
+      }
+    ]
+  },
+  {
+    "idDto": 7,
+    "lienId": 591,
+    "name": "BLUE CROSS",
+    "type": "TYPE 1",
+    "phone": "+1 (857) 406-2719",
+    "policy": "35804b44-229c-463e-adb4-4b2a0b797d39",
+    "coverage": [
+      {
+        "idDto": 0,
+        "coveragId": 35,
+        "type": "MP",
+        "status": "Close",
+        "primacy": "PRIMACY 1",
+        "adjuster": {
+          "idDto": 0,
+          "adjusterId": 821,
+          "name": "Savage Lindsey"
+        }
+      },
+      {
+        "idDto": 1,
+        "coveragId": 45,
+        "type": "MP",
+        "status": "Open",
+        "primacy": "PRIMACY 1",
+        "adjuster": {
+          "idDto": 1,
+          "adjusterId": 838,
+          "name": "Mann Eaton"
+        }
+      }
+    ]
+  }
+]

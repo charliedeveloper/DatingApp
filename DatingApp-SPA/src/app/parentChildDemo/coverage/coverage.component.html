@@ -1,0 +1,23 @@
+
+<div class="container mt-4">
+  <div class="row">
+    <span class="border border-primary">
+    <div class="col-sm-4" *ngIf="coverage">
+      <div>
+        <button class="btn btn-default mr-2" type="button" (click)="onAddAdjuster(coverage)">+ Adjuster</button>
+      </div>
+      {{coverage.type}}, {{coverage.status}}, {{coverage.primacy}}
+    </div>
+    </span>
+  </div>
+  <div class="row" *ngIf="coverage.adjuster">
+    <span class="border border-primary">
+    <div class="col-sm-4">
+      <div><strong>ADJUSTER</strong> </div>
+      <app-adjuster [adjuster]="coverage.adjuster"></app-adjuster>
+    </div>
+  </span>
+  </div>
+
+</div>
+

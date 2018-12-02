@@ -1,0 +1,75 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm-4">
+        <h1>EIM INSURANCE</h1>
+    </div>
+    <!-- <div class="col-sm-8">
+      <div *ngIf="editForm.dirty" class="alert alert-info">
+        <strong>Information: </strong>You have made changes. Any unsaved changes will be lost!
+      </div>
+    </div> -->
+
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <!-- <div class="card-body"> -->
+        <div>
+          <p><strong>Lien id: </strong>{{lien.lienId}} </p>
+          <p> <strong>Lien: </strong> {{lien.name}}  </p>
+          <p><strong>Main Phone </strong>{{lien.phone}}</p>
+        </div>
+        <div>
+          <strong>Type: </strong>{{lien.type}}
+          <strong>Sequence ID: </strong>{{lien.idDto}}
+        </div>
+        <div>
+            <strong>Policy: </strong>{{lien.policy}}
+            <button   class="btn btn-success" (click)="onAddCoverage()">+ coverage</button>
+          </div>
+      <!-- </div> -->
+      <!-- <div class="card-footer">
+          <button [disabled]="!editForm.dirty" form="editForm" class="btn btn-success btn-block">Save Changes</button>
+      </div> -->
+    </div>
+    <!-- <div class="col-sm-8">
+      <div class="tab-panel">
+        <tabset class="member-tabset">
+          <tab heading="Edit Profile">
+            <form #editForm="ngForm" id="editForm" (ngSubmit)="updateUser()">
+                <h4>Description</h4>
+                <textarea name="introduction" rows="6" class="form-control"
+                [(ngModel)]="user.introduction"></textarea>
+
+                <h4>Looking For</h4>
+                <textarea  name="lookingFor" rows="6" class="form-control"
+                [(ngModel)]="user.lookingFor"></textarea>
+
+                <h4>Interest</h4>
+                <textarea  name="lookingFor" rows="6" class="form-control"
+                [(ngModel)]="user.interest"></textarea>
+
+                <h4>Location Details</h4>
+                <div class="from-inline">
+                  <label for="city"></label>
+                  <input type="text" class="form-control" name="city" [(ngModel)]="user.city">
+                  <label for="country"></label>
+                  <input type="text" class="form-control" name="country" [(ngModel)]="user.country">
+                </div>
+            </form>
+          </tab>
+          <tab heading="Edit Photos">
+            <p>Photo Edit will go here</p>
+          </tab>
+        </tabset>
+      </div>
+    </div> -->
+  </div>
+
+  <div class="row">
+
+      <div *ngFor="let coverageItem of lien.coverage" class="col-sm-4">
+          <div><strong> COVERAGE </strong> </div>
+          <app-coverage [coverage]="coverageItem"></app-coverage>
+      </div>
+  </div>
+</div>
