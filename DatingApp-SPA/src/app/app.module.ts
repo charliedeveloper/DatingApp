@@ -1,11 +1,12 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 import { HttpClientModule } from "@angular/common/http";
-import { FormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { BsDropdownModule, TabsModule } from "ngx-bootstrap";
 import { RouterModule } from "@angular/router";
 import { JwtModule } from "@auth0/angular-jwt";
 import { NgxGalleryModule } from "ngx-gallery";
+import { FileUploadModule } from "ng2-file-upload";
 
 import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
@@ -31,9 +32,12 @@ import { LienListComponent } from "./parentChildDemo/lien-list/lien-list.compone
 import { CaseComponent } from "./parentChildDemo/case/case.component";
 import { CoverageComponent } from "./parentChildDemo/coverage/coverage.component";
 import { AdjusterComponent } from "./parentChildDemo/coverage/adjuster/adjuster.component";
+import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
+import { InterestComponent } from './members/interest/interest.component';
+
 
 export function tokenGetter() {
-  return localStorage.getItem("token");
+  return localStorage.getItem('token');
 }
 
 @NgModule({
@@ -51,21 +55,25 @@ export function tokenGetter() {
     LienListComponent,
     CaseComponent,
     CoverageComponent,
-    AdjusterComponent
+    AdjusterComponent,
+    PhotoEditorComponent,
+    InterestComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
     RouterModule.forRoot(appRoutes),
     NgxGalleryModule,
+    FileUploadModule,
     JwtModule.forRoot({
       config: {
         tokenGetter: tokenGetter,
-        whitelistedDomains: ["localhost:5000"],
-        blacklistedRoutes: ["localhost:5000/api/auth"]
+        whitelistedDomains: ['localhost:5000'],
+        blacklistedRoutes: ['localhost:5000/api/auth']
       }
     })
   ],
